@@ -1,6 +1,6 @@
 # Perceptible ID
 
-A customizable ID generator which, by default, is limited to the following 22 English characters:
+A customizable ID generator for Elixir which, by default, is limited to the following 22 English characters:
 
 ```elixir
 [a, b, c, d, e, f, h, i, j, k, m, n, o, p, r, s, t, w, x, y, 3, 4]
