@@ -66,7 +66,7 @@ This is based on the default number of characters, which is `22`.
 
 ## Randomization Algorithm
 
-Internally, this is using Erlang's `:rand` module to generate the
+Internally, this is using Erlang's `rand` module to generate the
 IDs. It is using the default algorithm, [exsss](https://www.erlang.org/doc/apps/stdlib/rand.html#default-algorithm).
 
 ## Benchmarks
