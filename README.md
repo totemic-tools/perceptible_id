@@ -1,4 +1,4 @@
-# Perceptible ID
+# Perceptible ID  [![Hex Version](https://img.shields.io/hexpm/v/perceptible_id.svg)](https://hex.pm/packages/perceptible_id) [![Hex Docs](https://img.shields.io/badge/docs-hexpm-blue.svg)](https://hexdocs.pm/perceptible_id/)
 
 A customizable ID generator for Elixir which, by default, is limited to the following 22 English characters:
 
@@ -7,6 +7,18 @@ A customizable ID generator for Elixir which, by default, is limited to the foll
 ```
 
 Inspired by [Understanding and avoiding visually ambiguous characters in IDs](https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids#visually-unambiguous-dictionary).
+
+## Features
+
+* Generate IDs with single function call
+* Generate IDs with custom lengths
+* Generate IDs with custom character inclusions and exclusions.
+* Reasonably performant. See [Benchmarks](#benchmarks).
+
+## Requirements
+
+* Elixir 1.17 or greater
+* Erlang OTP 27 or greater
 
 ## Installation
 
