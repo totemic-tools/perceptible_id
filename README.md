@@ -2,28 +2,9 @@
 
 A customizable ID generator which, by default, is limited to the following 22 English characters:
 
-* a
-* b
-* c
-* d
-* e
-* f
-* h
-* i
-* j
-* k
-* m
-* n
-* o
-* p
-* r
-* s
-* t
-* w
-* x
-* y
-* 3
-* 4
+```elixir
+[a, b, c, d, e, f, h, i, j, k, m, n, o, p, r, s, t, w, x, y, 3, 4,]
+```
 
 Inspired by [Understanding and avoiding visually ambiguous characters in IDs](https://gajus.com/blog/avoiding-visually-ambiguous-characters-in-ids#visually-unambiguous-dictionary).
 
